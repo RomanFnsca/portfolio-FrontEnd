@@ -1,0 +1,13 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color:aliceblue;
+}
+
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+}
