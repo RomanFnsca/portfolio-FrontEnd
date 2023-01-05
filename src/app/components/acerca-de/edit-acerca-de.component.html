@@ -16,9 +16,10 @@
                 </div>
                 <div class="form-group">
                     <label for="perfil">Imagen</label>
-                    <input type="text" class="form-control" id="perfil" name="perfil" [(ngModel)]="person.perfil" (change)="uploadImage($event)"
+                    <input type="file" class="form-control" id="perfil" name="perfil" [(ngModel)]="person.perfil" (change)="uploadImage($event)"
                     accept=".jpg, .jepg, .png">
                 </div>
+                <br>
                 <button class="btn btn-primary">
                     Editar
                 </button>
