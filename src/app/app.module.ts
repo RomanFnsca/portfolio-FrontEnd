@@ -37,7 +37,7 @@ import { NewEducationComponent } from './new-education/new-education.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    NewEducationComponent
+    NewEducationComponent,
   ],
   imports: [
     BrowserModule,
