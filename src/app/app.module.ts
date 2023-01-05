@@ -21,6 +21,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
 import { NewEducationComponent } from './new-education/new-education.component';
+import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { NewEducationComponent } from './new-education/new-education.component';
     HomeComponent,
     LoginComponent,
     NewEducationComponent,
+    EditAcercaDeComponent,
   ],
   imports: [
     BrowserModule,
