@@ -3,7 +3,7 @@
         <button type="button" class="btn btn-primary" routerLink="/editAcercaDe/1" *ngIf="isLogged">Editar Persona</button>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <img src={{person.perfil}} alt="Foto de perfil" id="fotoPerfil" class="img-fluid">
+        <img src="assets/img/perfil.jpg" alt="Foto de perfil" id="fotoPerfil" class="img-fluid">
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <p id="nombre">{{person.name}},{{person.lastName}}</p>
@@ -13,10 +13,7 @@
         <span>
             <h2>Acerca de mi</h2>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, 
-                dolorem! Corporis, quia in. Esse, voluptatibus numquam obcaecati ipsam 
-                doloribus enim rerum, sint facere dignissimos facilis atque optio eveniet? 
-                Temporibus, doloribus.
+                {{person.description}}
             </p>
         </span>
     </div>
