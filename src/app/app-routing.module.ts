@@ -16,7 +16,7 @@ const routes: Routes =[
     {path:'newEducation', component:NewEducationComponent},
     {path:'editAcercaDe/:id', component:EditAcercaDeComponent},
     {path:'newExperience', component:NewExperienceComponent},
-    {path:'editExperience', component:EditExperienceComponent}
+    {path:'editExperience/:id', component:EditExperienceComponent}
 ];
 
 @NgModule({
