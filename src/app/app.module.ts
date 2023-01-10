@@ -22,6 +22,7 @@ import { LoginComponent } from './components/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
 import { NewEducationComponent } from './new-education/new-education.component';
 import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+import { NewExperienceComponent } from './components/experience/new-experience.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     LoginComponent,
     NewEducationComponent,
     EditAcercaDeComponent,
+    NewExperienceComponent,
   ],
   imports: [
     BrowserModule,
